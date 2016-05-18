@@ -179,6 +179,14 @@ body {
 
 
 
+blockquote{
+justify-content: center;
+vertical-align: center;
+
+
+
+}
+
 #nomegaleria{
 display: flex;
 justify-content: center;
@@ -194,7 +202,7 @@ height: 620px;
 height: 620px;
 }
 #inst{
-height: 620px;
+
 }
 #upfooter{
 	background-color: #f5f5f5
