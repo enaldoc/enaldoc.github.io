@@ -87,6 +87,19 @@ footer a:hover{
 
 }
 
+#dLabel{
+	background-color: transparent;
+	border-radius: 0px;
+	border-color: transparent;
+	text-decoration: none;
+}
+
+#dLabel:hover{
+	background-color: transparent;
+	border-radius: 0px;
+	border-color: transparent;
+	text-decoration: none;
+}
 
 
 
@@ -145,6 +158,25 @@ body {
 	padding-bottom: 0px;
 }
 
+.img-circle {
+    width: 800px;
+}
+
+.col-md-12{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.navbar-right h3{
+	
+	font-family:'Open Sans Condensed', sans-serif;
+	padding-right: 15px;
+
+}
+
+
+
 @media (max-width: 991px) { 
 	.col-up{
 		margin-bottom: 50px;
@@ -166,4 +198,6 @@ body {
 }
 
 
-
+.row {
+	padding-bottom: 50px;
+}

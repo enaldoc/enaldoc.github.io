@@ -66,9 +66,12 @@
 
 
     </head>
-    <body onload="startTimer()">
 
-      <div class="navbar navbar-inverse navbar-fixed-top">
+
+    <body onload="startTimer()" data-spy="scroll" data-target=".navbar-collapse" data-offset="70">
+
+<!-- MMMMMMMMMMMEEENNNNNNNNNUUUUU-->
+      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
             <!--esse botao server para quando a area do browser ficar pequenas os botoes inicio galeria e contato virarem um menu (|||).-->
@@ -77,57 +80,73 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
             </button>
             
             <a class="navbar-brand" href="../index.html">
             <h2>enaldoCorrea</h2>
             </a>
-          </div> 
+          </div>
+          
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#pessoas">pessoas</a></li>
+              <li><a href="#paisagens">paisagens</a></li>
+              <li><a href="#natureza">natureza</a></li>
+              <li><a href="#experimentos">experimentos</a></li>
+            </ul>
+          
+        </div><!--/.navbar-collapse --> 
         </div>
       </div>
       
+      <!-- CIRRRRRRRRRRRRCLEEEEEEESSS-->
 
       <footer id="upfooter1">
        <div class="container">
         <div class="container-fluid homepage" id="cats1">
-          <div class="row">
-            <div class="col-md-6 col-up">
+          <div id="pessoas" class="row">
+            
+
+            <div  class="col-md-12 col-up">
             <a href="../cat_pes/index.html" target="_blank">
-              <h2>Pessoas</h2>
-              <img src="../images/categorias/link_pessoas.jpg" class="img-circle">
+              <img  src="../images/categorias/link_pessoas.jpg" class="img-circle">
              </a> 
            </div>
-           <div class="col-md-6">
+           </div>
+             
+           <div id="paisagens" class="row">
+           <div  class="col-md-12 col-up">
            <a href="../catg_coi/index.html" target="_blank">
-              <h2>Paisagens</h2>
+              
               <img src="../images/categorias/link_paisagem.jpg" class="img-circle">
               </a>
            </div>
-          </div>       
+           </div>
+
+          <div id="natureza" class="row">
+           <div class="col-md-12 col-up">
+            <a href="../galeria1/index.html" target="_blank">
+              
+              <img src="../images/categorias/link_natureza.jpg" class="img-circle">
+             </a> 
+           </div>
+           </div>
+
+           <div id="experimentos" class="row">
+             <div class="col-md-12 col-up">
+           <a href="../catg_coi/index.html" target="_blank">
+              
+              <img src="../images/categorias/link_experimentos.jpg" class="img-circle">
+              </a>
+           </div>
+           </div>
+
         </div> <!-- /container -->
        </div>  
       </footer>
 
-      <footer id="upfooter2">
-       <div class="container">
-        <div class="container-fluid homepage" id="cats2">
-          <div class="row">
-            <div class="col-md-6 col-up">
-            <a href="../galeria1/index.html" target="_blank">
-              <h2>Natureza</h2>
-              <img src="../images/categorias/link_natureza.jpg" class="img-circle">
-             </a> 
-           </div>
-           <div class="col-md-6">
-           <a href="../catg_coi/index.html" target="_blank">
-              <h2>Experimentos</h2>
-              <img src="../images/categorias/link_experimentos.jpg" class="img-circle">
-              </a>
-           </div>
-          </div>       
-        </div> <!-- /container -->
-       </div>  
-      </footer>
+      <!-- FOOOOOOOOOOOOOOOOOTTTTTTTTTT-->
 
       <footer id="downfooter">
        <div class="container">
@@ -175,8 +194,9 @@
       <!-- Placed at the end of the document so the pages load faster -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-      <!--  <script src="../../dist/js/bootstrap.min.js"></script>-->
+      <script src="../js/bootstrap.min.js"></script>
+      <script src="../js/smoothscrool.js"></script>
       <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-     <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
+     <!-- <script src="js/ie10-viewport-bug-workaround.js"></script>-->
     </body>
   </html>
