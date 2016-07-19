@@ -21,6 +21,10 @@ body {
 	margin-bottom: 50px;
 }
 
+.navbar-right a{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+}
 
 .jumbotron p{
 	font-weight: 100;
